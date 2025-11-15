@@ -1,22 +1,12 @@
 anthropic==0.25.7
+openai
 requests==2.31.0
 beautifulsoup4==4.12.2
 python-dotenv==1.0.0
 pydantic==2.5.0
 loguru==0.7.2
-pandas==2.1.3
+pandas>=2.0.0
 PyPDF2==3.0.1
-streamlit==1.29.0
-
-# Job Scraping
-selenium==4.15.2
-playwright==1.40.0
-fake-useragent==1.4.0
-requests-html==0.10.0
-
-# Social Media APIs
-tweepy==4.14.0
-praw==7.7.1
-
-# Email
-smtplib2==0.1.0
+streamlit>=1.28.0
+linkedin-scraper
+lxml
